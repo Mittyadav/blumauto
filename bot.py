@@ -520,10 +520,6 @@ Note : Every Action Has a Consequence
     # Print the banner with gradient
     print(gradient_banner + reset)
 
-
-# Run the main function
-import asyncio
-asyncio.run(main())
     arg = argparse.ArgumentParser()
     arg.add_argument(
         "--data",
