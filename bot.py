@@ -471,6 +471,10 @@ async def get_data(data_file, proxy_file):
 
 
 async def main():
+    magenta = "\033[35m"
+    green = "\033[32m"
+    white = "\033[37m"
+
     banner = f"""
 -================= ≫ ──── ≪•◦ ❈ ◦•≫ ──── ≪=================-
  │                                                          │
@@ -482,11 +486,14 @@ async def main():
  │  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝                        │
  │                                                          │
  │                                                          │
- ╰─━━━━━━━━━━━━━━━━━━━━━━━━Termux-os━━━━━━━━━━━━━━━━━━━━━━━─╯"""
- {magenta}white}BlumTod Auto Claim for {magenta}blum
- {green}Author : {green}dark life 
- {green}Github : {green}https://github.com/Mittyadav
- {white}Note : {white}Every Action Has a Consequence
+ ╰─━━━━━━━━━━━━━━━━━━━━━━━━Termux-os━━━━━━━━━━━━━━━━━━━━━━━─╯
+{magenta}BlumTod Auto Claim for {magenta}blum
+{green}Author : {white}dark life
+{green}Github : {white}https://github.com/Mittyadav
+{white}Note : Every Action Has a Consequence
+"""
+
+    print(banner)
     arg = argparse.ArgumentParser()
     arg.add_argument(
         "--data",
