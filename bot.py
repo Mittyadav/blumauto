@@ -515,10 +515,15 @@ Note : Every Action Has a Consequence
 """
 
     # Apply gradient to the banner
-    gradient_banner = apply_gradient(banner_text, colors)
+    banner = apply_gradient(banner_text, colors)
 
     # Print the banner with gradient
-    print(gradient_banner + reset)
+    print(banner + reset)
+
+
+# Run the main function
+import asyncio
+asyncio.run(main())
 
     arg = argparse.ArgumentParser()
     arg.add_argument(
