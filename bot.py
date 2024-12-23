@@ -470,33 +470,12 @@ async def get_data(data_file, proxy_file):
     return datas, proxies
 
 
-def apply_gradient(text, colors):
-    """Apply a gradient to the given text using the specified colors."""
-    gradient_text = ""
-    color_index = 0
-    for char in text:
-        if char.strip():  # Apply color to non-space characters
-            gradient_text += f"{colors[color_index % len(colors)]}{char}"
-            color_index += 1
-        else:
-            gradient_text += char  # Keep spaces uncolored
-    return gradient_text
-
-
 async def main():
-    # Define gradient colors (ANSI escape codes)
-    colors = [
-        "\033[31m",  # Red
-        "\033[33m",  # Yellow
-        "\033[32m",  # Green
-        "\033[36m",  # Cyan
-        "\033[34m",  # Blue
-        "\033[35m",  # Magenta
-    ]
-    reset = "\033[0m"
+    magenta = "\033[35m"
+    green = "\033[32m"
+    white = "\033[37m"
 
-    # Original Banner Text
-    banner_text = """
+    banner = f"""
 -================= ≫ ──── ≪•◦ ❈ ◦•≫ ──── ≪=================-
  │                                                          │
  │  ██████╗  █████╗ ██████╗ ██╗  ██╗                        │
@@ -508,22 +487,13 @@ async def main():
  │                                                          │
  │                                                          │
  ╰─━━━━━━━━━━━━━━━━━━━━━━━━Termux-os━━━━━━━━━━━━━━━━━━━━━━━─╯
-BlumTod Auto Claim for blum
-Author : dark life
-Github : https://github.com/Mittyadav
-Note : Every Action Has a Consequence
+{magenta}BlumTod Auto Claim for {magenta}blum
+{green}Author : {white}dark life
+{green}Github : {white}https://github.com/Mittyadav
+{white}Note : Every Action Has a Consequence
 """
 
-    # Apply gradient to the banner
-    gradient_banner = apply_gradient(banner_text, colors)
-
-    # Print the banner with gradient
-    print(gradient_banner + reset)
-
-
-# Run the main function
-import asyncio
-asyncio.run(main())
+    print(banner)
     arg = argparse.ArgumentParser()
     arg.add_argument(
         "--data",
