@@ -486,8 +486,8 @@ async def main():
  {magenta}white}BlumTod Auto Claim for {green}blum
  {green}Author : {white}dark life 
  {white}Github : {green}https://github.com/Mittyadav
- {green}Note : {white}Every Action Has a Consequence
-        """
+ {green}Note : {white}Every Action Has a Consequence"""
+        
     arg = argparse.ArgumentParser()
     arg.add_argument(
         "--data",
