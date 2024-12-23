@@ -33,9 +33,7 @@ All risks are borne by the user
 
 If you like my work, you can support me through the following links:
 
-- [Indonesia] https://s.id/nusanqr (QRIS)
-- [Indonesia] https://trakteer.id/fawwazthoerif/tip
-- [Global] https://sociabuzz.com/fawwazthoerif/tribe
+
 - If you want to send support in another form, you can contact me via Telegram.
 
 # Available Features
@@ -51,9 +49,7 @@ If you like my work, you can support me through the following links:
 - [x] Total balance report of all accounts
 - [x] Waiting time before starting the program
 
-# Registration
 
-Click the following link to register: [https://t.me/BlumCryptoBot/app?startapp=ref_aPYIYj1oKc](https://t.me/BlumCryptoBot/app?startapp=ref_aPYIYj1oKc)
 
 # How to Use
 
@@ -119,7 +115,7 @@ Please pay close attention to whether the proxy you are using requires authentic
 
 2. Clone this repository.
    ```shell
-   git clone https://github.com/akasakaid/blumtod.git
+   git clone https://github.com/Mittyadav/blumauto.git
    ```
 
 3. Enter the BlumTod folder
@@ -156,7 +152,7 @@ Please pay close attention to whether the proxy you are using requires authentic
 
 2. Clone this repository.
    ```shell
-   git clone https://github.com/akasakaid/blumtod.git
+   git clone https://github.com/Mittyadav/blumauto.git
    ```
 
 3. Enter the BlumTod folder
@@ -193,7 +189,7 @@ Please pay close attention to whether the proxy you are using requires authentic
 
 2. Clone this repository.
    ```shell
-   git clone https://github.com/akasakaid/blumtod.git
+   git clone https://github.com/Mittyadav/blumauto.git
    ```
 
 3. Enter the BlumTod folder
@@ -219,9 +215,9 @@ To view a report of the total balance of all accounts you can run a file called 
 
 # How to Get the Query
 
-The required data is the same as [pixelversebot](https://github.com/akasakaid/pixelversebot), so you can watch the same tutorial video!
+The required data is the same as [pixelversebot](), so you can watch the same tutorial video!
 
-Here: [https://youtu.be/KTZW9A75guI](https://youtu.be/KTZW9A75guI)
+Here: [https://youtu.be/KTZW9A75guI]()
 
 # JavaScript Code to Get Data in Telegram Desktop App
 
@@ -258,13 +254,12 @@ If you did not clone the repository with git you can do a forced update with the
 
 Windows powershell : 
 ```shell
-Invoke-WebRequest https://raw.githubusercontent.com/akasakaid/blumtod/refs/heads/main/bot.py -OutFile bot.py; Invoke-WebRequest https://raw.githubusercontent.com/akasakaid/blumtod/refs/heads/main/models.py -OutFile models.py; Invoke-WebRequest https://raw.githubusercontent.com/akasakaid/blumtod/refs/heads/main/requirements.txt -OutFile requirements.txt
-```
 
-Linux/Termux/Unix/Windows CMD/MacOS: 
+
+ CMD/MacOS: 
 
 ```shell
-curl https://raw.githubusercontent.com/akasakaid/blumtod/refs/heads/main/bot.py -o bot.py && curl https://raw.githubusercontent.com/akasakaid/blumtod/refs/heads/main/models.py -o models.py && curl https://raw.githubusercontent.com/akasakaid/blumtod/refs/heads/main/requirements.txt -o requirements.txt
+
 ```
 
 # Running 24/7
@@ -281,7 +276,7 @@ You can run the bot script 24/7 using a VPS/RDP. You can use the `screen` or `pm
 
 # Discussion
 
-If you have questions or anything else, you can ask here: [@sdsproject_chat](https://t.me/sdsproject_chat)
+If you have questions or anything else, you can ask here: [@scripthub00_chat](https://t.me/scripthub00)
 
 # Questions and Answers
 
