@@ -487,7 +487,7 @@ async def main():
  │                                                          │
  │                                                          │
  ╰─━━━━━━━━━━━━━━━━━━━━━━━━Termux-os━━━━━━━━━━━━━━━━━━━━━━━─╯
-{magenta}BlumTod Auto Claim for {magenta}blum
+{magenta}Blum Auto Claim for {magenta}blum
 {green}Author : {white}dark life
 {green}Github : {white}https://github.com/Mittyadav
 {white}Note : Every Action Has a Consequence
