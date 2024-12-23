@@ -483,11 +483,10 @@ async def main():
  │                                                          │
  │                                                          │
  ╰─━━━━━━━━━━━━━━━━━━━━━━━━Termux-os━━━━━━━━━━━━━━━━━━━━━━━─╯
- {magenta}white}BlumTod Auto Claim for {green}blum
- {green}Author : {white}dark life 
- {white}Github : {green}https://github.com/Mittyadav
- {green}Note : {white}Every Action Has a Consequence"""
-        
+ {magenta}white}BlumTod Auto Claim for {magenta}blum
+ {green}Author : {green}dark life 
+ {green}Github : {green}https://github.com/Mittyadav
+ {white}Note : {white}Every Action Has a Consequence"""
     arg = argparse.ArgumentParser()
     arg.add_argument(
         "--data",
